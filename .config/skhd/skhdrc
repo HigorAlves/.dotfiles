@@ -1,16 +1,16 @@
-# CHANGING WINDOW FOCUS	
+# CHANGING WINDOW FOCUS
 
 alt - j : yabai -m window --focus south
-alt - k : yabai -m window --focus north 
-alt - h : yabai -m window --focus west 
-alt - l : yabai -m window --focus east 
+alt - k : yabai -m window --focus north
+alt - h : yabai -m window --focus west
+alt - l : yabai -m window --focus east
 
 # SWAP WINDOWS
 
 shift + alt - j : yabai -m window --swap south
-shift + alt - k : yabai -m window --swap north 
-shift + alt - h : yabai -m window --swap west 
-shift + alt - l : yabai -m window --swap east 
+shift + alt - k : yabai -m window --swap north
+shift + alt - h : yabai -m window --swap west
+shift + alt - l : yabai -m window --swap east
 
 # MOVE MANAGED WINDOW
 
@@ -21,16 +21,16 @@ shift + alt + ctrl - l : yabai -m window --warp east
 
 # MODIFYING THE LAYOUT
 
-alt - r : yabai -m space --rotate 90
-alt - y : yabai -m space --mirror y-axis 
-alt - x : yabai -m space --mirror x-axis 
+alt - r : yabai -m space  --rotate 90
+alt - y : yabai -m space  --mirror y-axis
+alt - x : yabai -m space  --mirror x-axis
 alt - t : yabai -m window --toggle float;\
           yabai -m window --grid 4:4:1:1:2:2
 
 # MODIFY WINDOW SIZE
 
 alt - f : yabai -m window --toggle zoom-fullscreen
-shift + alt - r : yabai -m space --balance
+shift + alt - r : yabai -m space  --balance
 shift + alt - d : yabai -m window --resize right:20:0
 shift + alt - w : yabai -m window --resize top:0:20
 shift + alt - s : yabai -m window --resize top:0:-20
@@ -40,9 +40,9 @@ shift + alt - a : yabai -m window --resize right:-20:0
 # MOVE WINDOW TO WORKSPACE
 
 shift + alt - 1 : yabai -m window --space 1
-shift + alt - 2 : yabai -m window --space 2 
-shift + alt - 3 : yabai -m window --space 3 
-shift + alt - 4 : yabai -m window --space 4 
+shift + alt - 2 : yabai -m window --space 2
+shift + alt - 3 : yabai -m window --space 3
+shift + alt - 4 : yabai -m window --space 4
 
 # START | STOP YABAI
 
