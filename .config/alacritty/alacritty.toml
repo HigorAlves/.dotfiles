@@ -1,8 +1,8 @@
 live_config_reload = true
 
-window.padding.x = 18
-window.padding.y = 16
 window.opacity = 0.90
+window.padding.x = 10
+window.padding.y = 10
 window.blur = true
 window.dynamic_padding = false
 window.decorations = 'buttonless'
