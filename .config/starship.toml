@@ -13,7 +13,7 @@ success_symbol = '[➜](bold green)' # The 'success_symbol' segment is being set
 disabled = true
 
 [aws]
-format = 'on [$symbol($profile)(\($region\))]($style) '
+format = 'on [$symbol($profile)(\($region\))]($style)'
 style = 'bold yellow'
 [aws.region_aliases]
 us-east-1 = 'use1'
@@ -27,7 +27,7 @@ format = 'on [$symbol($domain)(\($region\))]($style) '
 format = '[$symbol \[$name\]]($style) '
 
 [docker_context]
-format = 'via [🐋 $context](blue bold) '
+format = 'via [🐋 $context](blue bold)'
 
 [pulumi]
 format = '[🛥 ($version )$stack]($style) '
